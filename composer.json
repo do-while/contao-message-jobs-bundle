@@ -1,0 +1,37 @@
+{
+    "name": "do-while/contao-message-jobs-bundle",
+    "description": "Generate messages notifications from SQL selects within Contao backend",
+    "keywords": ["contao", "widget", "messages", "notification", "sql"],
+    "type": "contao-bundle",
+    "homepage": "https://www.softleister.de",
+    "license": "LGPL-3.0+",
+    "authors": [{
+        "name": "Softleister - Hagen Klemp",
+        "homepage": "https://www.softleister.de",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "info@softleister.de"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "contao/core-bundle": "~4.4",
+        "terminal42/notification_center": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softleister\\MessagejobsBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/"
+        ]
+    },
+    "extra": {
+		"contao-manager-plugin": "Softleister\\MessagejobsBundle\\ContaoManager\\Plugin"
+    }
+}
