@@ -1,13 +1,13 @@
 # contao-message-jobs-bundle
 **Die Erweiterung Message-Jobs bietet die Möglichkeit, Benachrichtigungsaufgaben im Backend zu automatisieren. Über eine konfigurierbare Datenbankabfrage (Ähnlich dem Listing-Modul) können Daten für Benachrichtigungen generiert werden.
-Anwendungsbeispiele sind Informationsmails an alle Vereinsmitglieder oder die Generierung einer Liste von Teilnehmern, oder …**
+<br>Anwendungsbeispiele sind Informationsmails an alle Vereinsmitglieder oder die Generierung einer Liste von Teilnehmern, oder …**
 
 Eine ausführliche Anleitung finden Sie als PDF-Datei im Verzeichnis der Erweiterung:<br>`vendor/do-while/contao-message-jobs-bundle/docs`
 ___
 
 
 **The Message Jobs extension allows you to automate notification tasks in the backend. A configurable database query (similar to the listing module) can be used to generate data for notifications.
-Application examples are information mails to all club members or the generation of a member list, or ...**
+<br>Application examples are information mails to all club members or the generation of a member list, or ...**
 
 Detailed instructions can be found as a PDF file in the extension directory:<br>`vendor/do-while/contao-message-job-bundle/docs`
 
